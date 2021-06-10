@@ -9,7 +9,7 @@ class Maps extends Component{
           <div class ="wrapper">
             <div class = "column">
               <div class = "inner-column">
-               <Title titleColor = '#fff'>Maps</Title>
+               <Title titleColor = '#0d186e'>Maps</Title>
               </div>
             </div>
           </div>

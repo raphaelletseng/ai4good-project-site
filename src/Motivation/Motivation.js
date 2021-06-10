@@ -9,7 +9,7 @@ class Motivation extends Component{
           <div class ="wrapper">
             <div class = "column">
               <div class = "inner-column">
-               <Title titleColor = '#fff'>Motivation</Title>
+               <Title titleColor = '#0d186e'>Motivation</Title>
               </div>
             </div>
           </div>

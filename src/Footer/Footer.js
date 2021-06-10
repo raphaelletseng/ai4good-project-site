@@ -2,10 +2,11 @@ import React from 'react';
 import styled from '@emotion/styled';
 import {css} from '@emotion/react';
 import BackToTop from 'react-back-to-top-button';
+import Title from '../Title.js';
 
 const FooterContainer = styled('div')`
   display: flex;
-  background-image: linear-gradient(#000, #2b2b2b);
+  background-image: linear-gradient(#0D186E, #0D186E);
   flex-direction: row;
   padding-top: 70px;
   width: 100%;
@@ -16,7 +17,7 @@ const CenterContainer = styled('div')`
   display: flex;
   flex-grow: 1;
   flex-basis: 0;
-  color: white;
+  color: #CAE8FF;
   font-weight: bold;
   margin: 0 auto;
 `;
@@ -28,11 +29,11 @@ const CenterContent = styled('div')`
 `;
 
 const footerLink = css`
-  color: #fff ;
+  color: #335899 ;
   transition: opacity 0.2s;
   text-decoration: none !important;
   :hover {
-    color:#ffc18e ;
+    color:#FFFA6b ;
   }
 `;
 
@@ -43,9 +44,8 @@ const SocialLinks = styled('div')`
   align-items: center;
   text-align: center;
   justify-content: center;
-  background-color:#808080;
   border-radius: 2%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);*/
   display: flex;
   > a {
     font-size: 50px;
@@ -61,6 +61,7 @@ const SocialLinks = styled('div')`
 `;
 
 
+
 const year = new Date().getFullYear();
 
 export default () => (
@@ -71,9 +72,12 @@ export default () => (
     <i id = "up-button" className = "fa fa-arrow-circle-up" ></i>
   </BackToTop>
 
+
     <CenterContainer>
 
       <CenterContent>
+      <h1>Acknowledgements</h1>
+      <p class ='footer-text'> We would like to thank our TA and our mentors for their support throughout this project. </p>
         <p class='footer-text'>Get in contact!</p>
 
         <SocialLinks>
@@ -109,11 +113,7 @@ export default () => (
           />
            </SocialLinks>
           <br/>
-        <a href="https://www.mcgillai.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="link-site">
-        Ai4Good Group 4 *Name* </a><br/> &copy; {year}
+        datallite. &copy; {year}
       </CenterContent>
     </CenterContainer>
   </FooterContainer>

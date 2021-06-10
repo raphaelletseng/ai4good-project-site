@@ -1,7 +1,16 @@
 /* Generatl Styles **/
 
 body { background: #cae8ff;
-  font: "Trebuchet MS", sans-serif;};
+  font: "Trebuchet MS", sans-serif;}
+
+h1 {
+  color: #fff;
+  font: 28px 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 
 /* Header Styles */
 
@@ -132,6 +141,7 @@ header *,*::before,*::after{
 }
 header .wave-container > svg{
   display: block;
+  float: bottom;
 }
 
 header .column {
@@ -360,8 +370,29 @@ ul#nav li.current a { color: #0d186e;
 }
 
 /*****************************************/
+/*Motivation*/
+/*******************************************/
+#motivation {
+  background-color: #fff;
+  padding-top: 96px;
+  padding-bottom: -30em;
+}
+
+#motivation .wave-container > svg{
+  display: block;
+  float: bottom;
+
+}
+
+
+
+/*****************************************/
 /* About us */
 /**************************************/
+#aboutus .row{
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
 #aboutus .column{
   float: left;
@@ -378,6 +409,8 @@ ul#nav li.current a { color: #0d186e;
 }
 
 #aboutus .card {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #aboutus .container{
@@ -401,27 +434,57 @@ ul#nav li.current a { color: #0d186e;
   padding: 4px 4px;
 }
 
-#aboutus img {
+/*#aboutus img {
   width: 70%;
   border-radius: 3%;
   filter: grayscale(100%);
-  border: 10px solid #fff;
+}
+border: 10px solid #fff; */
+
+#aboutus .blob-wrap{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#aboutus .blob-wrap img{
+  margin: auto;
+  display: block;
+  align: center;
+  position: absolute;
+  max-width: 70%;
+  height: auto;
+  border-radius: 3%;
+  filter: grayscale(100%);
+  top: 30px;
+  left: 35px;
+}
+
+#aboutus .blob-wrap svg{
+  display: inline-block;
+  align: center;
+  top: 0;
+  z-index: 1;
+  left: 0;
 }
 
 #aboutus .wave-container{
   box-sizing: border-box;;
   background: #cae8ff;
-  margin-bottom: -40px;
+  width: 100%;
+  margin-bottom: -30px;
 }
 #aboutus .wave-container{
  *,*::before,*::after{
   box-sizing: inherit;
 }
-#aboutus .wave-container{
- .wave-container > svg{
+#aboutus .wave-container > svg{
   display: block;
+  position: fixed;
+  width: 100%;
 }
 
+/*Maps*/
 
 
 /*************************************/

@@ -16,12 +16,12 @@ h1 {
 
 header {
   position: relative;
-  height: 800px;
+  height: 200px;
   overflow:hidden;
-
-  min-height: 500px;
+  bottom: -10px;
+  min-height: 400px;
   width: 100%;
-  background: #fff;
+  background: #cae8ff;
   text-align: center;
   overflow: hidden;
 
@@ -374,9 +374,64 @@ ul#nav li.current a { color: #0d186e;
 /*******************************************/
 #motivation {
   background-color: #fff;
-  padding-top: 96px;
+  padding-top: 0px;
   padding-bottom: -30em;
 }
+
+#motivation .row{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#motivation h1{
+  color: #2b2b2b;
+}
+
+#motivation .img_wrap{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+#motivation .img_description{
+  position: absolute;
+  top: -10px;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  color: #2b2b2b;
+  border-radius: 5%;
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(202,232, 255, 0.5));
+  visibility: hidden;
+  opacity:0;
+
+  transition: opacity .2s, visibility .2s;
+
+}
+#motivation .img_wrap:hover img{
+  opacity: 0.2;
+}
+
+#motivation .img_wrap:hover .img_description{
+  cursor: pointer;
+  visibility: visible;
+  opacity: 1;
+}
+
+#motivation .column{
+  width: 33%;
+  float: left;
+  margin: auto;
+}
+#motivation .row::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+#motivation .column img{
+  max-width: 90%;
+}
+
 
 #motivation .wave-container > svg{
   display: block;
@@ -384,6 +439,35 @@ ul#nav li.current a { color: #0d186e;
 
 }
 
+/******************************/
+/*maps */
+/**************************/
+
+#map .row{
+ padding-left: 20px;
+ padding-right: 20px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+#map .column{
+  width: 50%;
+  float: left;
+}
+
+#map .row::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+#map .column img {
+  border-radius: 3%;
+  object-fit: contain;
+  width: 90%;
+
+
+}
 
 
 /*****************************************/
@@ -485,6 +569,8 @@ border: 10px solid #fff; */
 }
 
 /*Maps*/
+
+
 
 
 /*************************************/

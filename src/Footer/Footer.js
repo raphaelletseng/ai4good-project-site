@@ -78,6 +78,7 @@ export default () => (
       <CenterContent>
       <h1>Acknowledgements</h1>
       <p class ='footer-text'> We would like to thank our TA and our mentors for their support throughout this project. </p>
+      <a href="https://storyset.com/data">Data illustrations by Storyset</a>
         <p class='footer-text'>Get in contact!</p>
 
         <SocialLinks>

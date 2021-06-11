@@ -1,19 +1,26 @@
 import React, {Component} from 'react';
 import Title from '../Title.js';
+import Nigeria from './nigeria-stan.png';
+import Tanzania from './tanzania-stan.png'
 
 class Maps extends Component{
   render(){
     return(
-      <section id = "maps">
-        <div className="maps">
-          <div class ="wrapper">
-            <div class = "column">
-              <div class = "inner-column">
-               <Title titleColor = '#0d186e'>Maps</Title>
+      <section id = "map">
+            <Title titleColor = '#0d186e'>Maps</Title>
+
+            <div class = "row">
+              <div class = "column">
+                <img src = {Nigeria} alt="Nigeria"></img>
+
+              </div>
+
+              <div class="column">
+                <img src = {Tanzania} alt = "Tanzania"></img>
               </div>
             </div>
-          </div>
-        </div>
+
+
       </section>
     );
   }

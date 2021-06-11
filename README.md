@@ -1,4 +1,4 @@
-# ai4good-project-site
+# datallite-project-site
 Demo site for Ai4good project
 
 # Getting Started with Create React App

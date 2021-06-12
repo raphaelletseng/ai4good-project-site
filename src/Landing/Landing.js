@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {motion} from 'framer-motion';
 import Earth from './earth.jpg';
 import Earth2 from './1280px-earth.jpg';
 import Gal from './gal.png';
@@ -12,7 +13,6 @@ class Landing extends Component {
       <nav id = "nav-wrap">
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a className="mobile-btn" href="#home" title = "Hide navigation">Hide navigation</a>
-        <img className ="nav-logo" src={logo} alt='datallite-logo'/>
         <ul id="nav" className="nav">
           <li className ="current"><a className = "smoothscroll" href="#home">Home</a></li>
           <li><a className = "smoothscroll" href="#motivation">Motivation</a></li>
@@ -30,7 +30,15 @@ class Landing extends Component {
 
         <div class="column">
           <br/><br/>
-          <img src={Gal2} alt = "School person"></img>
+          <motion.img
+            src={Gal}
+            alt = "School person"
+            animate={{y:[0,10,0]}}
+            transition={{
+              duration: 5,
+              repeat: Infinity,
+            }}>
+          </motion.img>
 
 
         </div>

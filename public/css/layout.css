@@ -15,6 +15,7 @@ h1 {
 /* Header Styles */
 
 header {
+  background-image: url('./amazon.jpg');
   position: relative;
   height: 200px;
   overflow:hidden;

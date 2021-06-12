@@ -18,7 +18,11 @@ class Motivation extends Component{
             <div className = "column">
               <div class="img_wrap">
                 <img src={Human} alt="human"></img>
-                <p class="img_description">Hello world!</p>
+                <p class="img_description">
+                  In 2015, the United Nations unanimously adopted the
+                  Agenda for Sustainable Development outlining a plan of action
+                  to shift the world onto a sustainable and resilient path.
+                </p>
               </div>
               <h1> Human </h1>
             </div>

@@ -1,7 +1,7 @@
 {
-  "name": "datallite-site",
+  "homepage":"https://raphaelletseng.github.io/datallite-site",
+  "name": "ai4good-project-site",
   "version": "0.1.0",
-  "homepage":"http://raphaelletseng.github.io/datallite-site",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.4.0",

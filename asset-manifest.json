@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/datallite-site/static/css/main.1635e87c.chunk.css",
+    "main.js": "/datallite-site/static/js/main.32d35828.chunk.js",
+    "main.js.map": "/datallite-site/static/js/main.32d35828.chunk.js.map",
+    "runtime-main.js": "/datallite-site/static/js/runtime-main.fccce060.js",
+    "runtime-main.js.map": "/datallite-site/static/js/runtime-main.fccce060.js.map",
+    "static/js/2.4b9c4b2c.chunk.js": "/datallite-site/static/js/2.4b9c4b2c.chunk.js",
+    "static/js/2.4b9c4b2c.chunk.js.map": "/datallite-site/static/js/2.4b9c4b2c.chunk.js.map",
+    "static/js/3.ddb541a4.chunk.js": "/datallite-site/static/js/3.ddb541a4.chunk.js",
+    "static/js/3.ddb541a4.chunk.js.map": "/datallite-site/static/js/3.ddb541a4.chunk.js.map",
+    "index.html": "/datallite-site/index.html",
+    "static/css/main.1635e87c.chunk.css.map": "/datallite-site/static/css/main.1635e87c.chunk.css.map",
+    "static/js/2.4b9c4b2c.chunk.js.LICENSE.txt": "/datallite-site/static/js/2.4b9c4b2c.chunk.js.LICENSE.txt",
+    "static/media/1280px-earth.1ea08b52.jpg": "/datallite-site/static/media/1280px-earth.1ea08b52.jpg",
+    "static/media/Data report-amico.8d2f67f6.png": "/datallite-site/static/media/Data report-amico.8d2f67f6.png",
+    "static/media/Solidarity-amico.7bb44ce2.png": "/datallite-site/static/media/Solidarity-amico.7bb44ce2.png",
+    "static/media/Typing-bro.96de4816.png": "/datallite-site/static/media/Typing-bro.96de4816.png",
+    "static/media/earth.f6e91565.jpg": "/datallite-site/static/media/earth.f6e91565.jpg",
+    "static/media/gal.196887bc.png": "/datallite-site/static/media/gal.196887bc.png",
+    "static/media/gal2.125db4c4.png": "/datallite-site/static/media/gal2.125db4c4.png",
+    "static/media/haoyi.449748b4.jpg": "/datallite-site/static/media/haoyi.449748b4.jpg",
+    "static/media/logo.0f4ecf00.png": "/datallite-site/static/media/logo.0f4ecf00.png",
+    "static/media/michelle.e68e806b.jpg": "/datallite-site/static/media/michelle.e68e806b.jpg",
+    "static/media/nigeria-stan.9556d6ba.png": "/datallite-site/static/media/nigeria-stan.9556d6ba.png",
+    "static/media/raph.dc016aaf.jpg": "/datallite-site/static/media/raph.dc016aaf.jpg",
+    "static/media/rayan2.62632a3e.jpg": "/datallite-site/static/media/rayan2.62632a3e.jpg",
+    "static/media/tanzania-stan.e5c35959.png": "/datallite-site/static/media/tanzania-stan.e5c35959.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fccce060.js",
+    "static/js/2.4b9c4b2c.chunk.js",
+    "static/css/main.1635e87c.chunk.css",
+    "static/js/main.32d35828.chunk.js"
+  ]
+}

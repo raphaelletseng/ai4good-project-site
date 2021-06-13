@@ -5,7 +5,6 @@ const Title = styled('div')`
   font-family: 'Trebuchet MS', sans-serif;
   font-size: 2.5em;
   letter-spacing: 2px;
-  text-transform: uppercase;
   font-weight: bolder;
   color: ${props =>props.titleColor};
   padding-top: 0.33em;

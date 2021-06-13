@@ -103,13 +103,13 @@
 
    $(window).on('scroll', function() {
 
-		var h = $('header').height();
+		var h = $('#home').height();
 		var y = $(window).scrollTop();
     var nav = $('#nav-wrap');
 
 
-         if (y < h*.20) {
-            nav.removeClass('opaque').fadeIn('fast');
+         if (y < h*0.2) {
+            nav.removeClass('opaque');
          }
          else {
             nav.addClass('opaque').fadeIn('fast');

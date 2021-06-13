@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {motion} from 'framer-motion';
 import Title from '../Title.js';
 import Haoyi from './haoyi.jpg';
 import Raph from './raph.jpg';
@@ -10,6 +11,18 @@ class AboutUs extends Component{
   render(){
     return(
       <section id = "aboutus">
+      <div className="wave-container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 270"><path fill="#cae8ff" fill-opacity="1" d="M0,128L48,112C96,96,192,64,288,64C384,64,480,96,576,138.7C672,181,768,235,864,240C960,245,1056,203,1152,160C1248,117,1344,75,1392,53.3L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+      </div>
+      <motion.h1
+        animate={{
+          x:[0,5,0]
+        }}
+        transition={{
+          duration: 5,
+          repeat: Infinity,
+        }}>
+        About Us </motion.h1>
       <Title titleColor="#0d186e">About Us</Title>
         <div class = "row">
           <div class = "column">
@@ -42,7 +55,7 @@ class AboutUs extends Component{
 
               <div class = "container">
                 <h2> Raphaelle Tseng </h2>
-                <p> Awesome pawesome! </p>
+                <p> Fosters cats and writes code. </p>
                 <p><button class = "button"> Linkedin </button></p>
               </div>
             </div>
@@ -102,7 +115,7 @@ class AboutUs extends Component{
           </div>
           </div>
         <div class="wave-container">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0D186E" fill-opacity="1" d="M0,256L40,240C80,224,160,192,240,170.7C320,149,400,139,480,149.3C560,160,640,192,720,208C800,224,880,224,960,218.7C1040,213,1120,203,1200,170.7C1280,139,1360,85,1400,58.7L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 265"><path fill="#0D186E" fill-opacity="1" d="M0,256L48,245.3C96,235,192,213,288,176C384,139,480,85,576,96C672,107,768,181,864,197.3C960,213,1056,171,1152,128C1248,85,1344,43,1392,21.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
         </div>
 
 

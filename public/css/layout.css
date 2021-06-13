@@ -1,13 +1,12 @@
 /* Generatl Styles **/
 
-body { background: #cae8ff;
+body { background: #fff;
   font: "Trebuchet MS", sans-serif;}
 
 h1 {
   color: #fff;
   font: 28px 'Trebuchet MS', sans-serif;
   font-weight: bolder;
-  text-transform: uppercase;
   letter-spacing: 2px;
 }
 
@@ -17,7 +16,7 @@ h1 {
 header {
   background-image: url('./amazon.jpg');
   position: relative;
-  height: 200px;
+  height: 40px;
   overflow:hidden;
   bottom: -10px;
   min-height: 400px;
@@ -52,12 +51,10 @@ header .banner-text{
 }
 header h1 {
   color: #0d186e;
-  font: 28px 'Trebuchet MS', sans-serif;
-  font-weight: bolder;
-  text-transform: uppercase;
+  font: 32px 'Trebuchet MS', sans-serif;
+  font-weight: bold;
   letter-spacing: 2px;
 /*  background-color: rgba(255, 169, 168, 0.8); */
-  border-radius: 0.2rem;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -65,7 +62,9 @@ header h1 {
 
 div h3 {
   color: #040404;
-  padding-top:20px;
+  padding-top:0px;
+  padding-left: 5px;
+  color: #0d186e;
   font-size: 1em;
   font-family: 'Trebuchet MS', sans-serif;
   letter-spacing: 1.2px;
@@ -117,7 +116,7 @@ header .landing-wrapper{
 
 header .scrolldown a{
   position: absolute;
-  bottom: 20px;
+  bottom: 50px;
   left: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -131,7 +130,7 @@ header .scrolldown a{
   z-index: 100;
 }
 
-header .scrolldown a:hover { color:#ffa9a8;}
+header .scrolldown a:hover { color:#ffff66;}
 
 header .wave-container{
   box-sizing: border-box;;
@@ -145,34 +144,56 @@ header .wave-container > svg{
   float: bottom;
 }
 
-header .column {
+#home .column {
+  margin-top: 70px;
   float: left;
   display: inline-block;
   text-align: center;
   width: 50%;
-  padding: 30px;
   flex: 50%;
 }
-header .row {
+#home .row {
   display: flex;
+  float: right;
+  padding-left: 10%;
   text-align: center;
-  width: 90%;
+  width: 100%;
 }
-header .row: after{
+#home .row: after{
   content:"";
   display: table;
   clear: both;
 }
 @media screen and (max-width: 700px){
-  header .column{
+  #home .column{
     width: 100%;
   }
 }
 
-header img {
+#home .text-wrap{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20%;
+  text-align: left;
+}
+
+#home i {
+  padding-left: 10px;
+}
+
+#home .column img {
   width: 400px;
   height: 400px;
   object-fit: contain;
+}
+
+#home {
+
+  background-image:  linear-gradient(rgba(202,232, 255, 0.5), rgba(202,232, 255, 0.5)), url('./nebraska.jpg');
+  background-size:cover;
+  top:0;
+  bottom: 0;
 }
 
 /**************************************************/
@@ -195,7 +216,6 @@ header img {
    z-index: 100;
    position: fixed;
    left: 0;
-   background-color: #fff;
    outline: none;
    top: 0;
 }
@@ -233,7 +253,7 @@ ul#nav li a {
   padding: 8px 20px;
   line-height: 32px;
   text-align: left;
-  color: #0d186e;
+  color: #cae8ff;
   text-decoration: none;
 
 
@@ -245,7 +265,8 @@ ul#nav li a {
 }
 
 ul#nav li a:hover{
-  color: #fff;
+  color: #0d186e;
+  border-bottom: 4px solid #0d186e;
 }
 
 /* Hide top bar on home page
@@ -254,120 +275,6 @@ li.current a[target=_home] nav {
 } */
 
 ul#nav li.current a { color: #0d186e;
-  border-bottom: 5px solid #cae8ff;
-}
-/*************************/
-/** About Section **/
-/**********************************/
-#about  {
-  background: #fff;
-  padding-top: 96px;
-  padding-bottom: 66px;
-  overflow: hidden;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-#about .background-monster{
-  width: 95%;
-  margin-left: auto;
-  margin-right:auto;
-}
-
-#about .background-monster img {
-  width: 15%;
-  height: auto;
-  position: absolute;
-  right: 5%;
-}
-
-@media screen and (min-width: 700px){
-  #about .wrapperA{
-    display: grid;
-    grid-gap:.5rem;
-    grid-template-rows:
-      [tracks] auto
-      [layer-1] 1fr
-      [layer-2] 1fr;
-    grid-template-columns:
-      [layers] 1rem
-      [track-1-start] 1fr
-      [track-1-end track-2-start] 1fr
-      [track-2-end];
-  }
-}
-
-#about .layer-slotA {grid-column: layers;}
-#about .slotA{display: none;}
-
-@supports (display:grid){
-  @media screen and (min-width: 700px){
-    #about .slotA{
-      display: block;
-      padding: 10px 5px 5px;
-      position:sticky;
-      top: 0;
-      z-index: 1;
-    }
-  }
-}
-#about .sessionA{margin-bottom:0.2em;}
-@supports(display:grid){
-  @media screen and (min-width:700px){
-    #about .sessionA{margin:0;}
-  }
-}
-
-
-#about .sessionA{
-  padding-top:auto;
-  padding-bottom: auto;
-  text-align: : center;
-  border-radius: .2rem;
-  background-color: #ffa9a8;
-  padding: .5rem;
-  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.4);
-}
-
-#about .layer-slotA{
-  margin: auto;
-  font-size: 1em;
-}
-
-#about .sessionA-layer, #about .sessionA-track, #about .layer-slotA {display:block;}
-
-#about .sessionA a{
-  text-decoration: none;
-}
-
-#about .sessionA a:hover{
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-
-
-/**
-#about a, #about a:visited {color: #e6e6e6;}
-#about a:hover, #about a:focus { color: #8becff;}
-**/
-
-#about p {
-  color: #040404;
-  font-size: 0.8em;
-  font-family: 'Trebuchet MS', sans-serif;
-  margin-bottom: 12px;
-  letter-spacing: 1.2px;
-  line-height: 25px;
-  width: 70%;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 /*****************************************/
@@ -433,16 +340,24 @@ ul#nav li.current a { color: #0d186e;
   max-width: 90%;
 }
 
+#motivation .wave-container{
+  margin-bottom: -13px;
+}
 
 #motivation .wave-container > svg{
   display: block;
   float: bottom;
-
 }
+
+
 
 /******************************/
 /*maps */
 /**************************/
+#map {
+  background-color: #cae8ff;
+  padding-bottom: 10px;
+}
 
 #map .row{
  padding-left: 20px;
@@ -474,6 +389,16 @@ ul#nav li.current a { color: #0d186e;
 /*****************************************/
 /* About us */
 /**************************************/
+#aboutus {
+  background-color: #fff;
+}
+
+#aboutus h1 {
+  color: #0d186e;
+  font-size: 2.5em;
+
+}
+
 #aboutus .row{
   padding-left: 40px;
   padding-right: 40px;
@@ -555,18 +480,25 @@ border: 10px solid #fff; */
 
 #aboutus .wave-container{
   box-sizing: border-box;;
-  background: #cae8ff;
+  background: #fff;
   width: 100%;
-  margin-bottom: -30px;
+  margin-bottom: -10px;
+  padding-bottom: -10px;
+  margin-top: 0;
+  top: 22px;
 }
 #aboutus .wave-container{
- *,*::before,*::after{
+*,*::before,*::after{
   box-sizing: inherit;
 }
+
 #aboutus .wave-container > svg{
   display: block;
   position: fixed;
   width: 100%;
+  bottom: 10px;
+  margin-bottom: -10px;
+  z-index: 10;
 }
 
 /*Maps*/

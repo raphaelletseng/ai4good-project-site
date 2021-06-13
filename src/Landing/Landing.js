@@ -5,6 +5,7 @@ import Earth2 from './1280px-earth.jpg';
 import Gal from './gal.png';
 import Gal2 from './gal2.png';
 import logo from './logo.png';
+import Button from '../Button.js';
 
 class Landing extends Component {
   render() {
@@ -25,7 +26,28 @@ class Landing extends Component {
       <div class="row">
         <div class="column">
         <br/><br/><br/><br/>
-          <h1> datallite. </h1>
+        <div className="text-wrap">
+          <motion.h1
+            animate={{
+              x:[0, 2, 0]
+            }}
+            transition={{
+              duration: 5,
+              repeat: Infinity,
+            }}>
+            DATALLITE</motion.h1>
+          <h1> Quenching Data Droughts For Sustainable Development </h1>
+          <h3> Here goes some text explaining in brief what we do. <br/> And maybe cat things. </h3>
+        </div>
+          <Button textcolor="#0d186e" bgcolor="rgba(202,232, 255, 0.5)">I'm an NGO
+            <i class="fa fa-chevron-right" aria-hidden="true"></i></Button>
+
+          <Button textcolor="#fff" bgcolor="#335899" style={{marginLeft: 20}}>I'm a Gov org
+            <i class="fa fa-chevron-right" aria-hidden="true"></i></Button>
+          <br/>
+          <br/>
+
+
         </div>
 
         <div class="column">
@@ -44,6 +66,10 @@ class Landing extends Component {
         </div>
 
       </div>
+
+      <p className = "scrolldown">
+        <a className = "smoothscroll" href="#motivation"><i className = "fa fa-chevron-down"></i></a>
+      </p>
 
 
 

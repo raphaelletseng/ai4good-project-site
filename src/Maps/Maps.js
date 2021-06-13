@@ -7,7 +7,7 @@ class Maps extends Component{
   render(){
     return(
       <section id = "map">
-            <Title titleColor = '#0d186e'>Maps</Title>
+            <Title titleColor = '#0d186e'>Our Datallite Solution</Title>
 
             <div class = "row">
               <div class = "column">

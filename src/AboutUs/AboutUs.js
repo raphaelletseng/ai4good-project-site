@@ -16,14 +16,13 @@ class AboutUs extends Component{
       </div>
       <motion.h1
         animate={{
-          x:[0,5,0]
+          y:[0,5,0]
         }}
         transition={{
           duration: 5,
           repeat: Infinity,
         }}>
         About Us </motion.h1>
-      <Title titleColor="#0d186e">About Us</Title>
         <div class = "row">
           <div class = "column">
             <div class = "card">
@@ -37,8 +36,14 @@ class AboutUs extends Component{
               <div class = "container">
                 <h2> Haoyi Qiu </h2>
                 <p> Awesome pawesome! </p>
-                <p><button class = "button"> Linkedin </button></p>
-              </div>
+                <a
+                  aria-label="Linkedin"
+                  href="https://www.linkedin.com/company/mcgill-artificial-intelligence-society/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class='fa fa-linkedin'
+                />
+                </div>
             </div>
           </div>
 
@@ -54,9 +59,15 @@ class AboutUs extends Component{
             </div>
 
               <div class = "container">
-                <h2> Raphaelle Tseng </h2>
+                <h2> Raphaëlle Tseng </h2>
                 <p> Fosters cats and writes code. </p>
-                <p><button class = "button"> Linkedin </button></p>
+                <a
+                  aria-label="Linkedin"
+                  href="https://www.linkedin.com/company/mcgill-artificial-intelligence-society/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class='fa fa-linkedin'
+                />
               </div>
             </div>
           </div>
@@ -75,7 +86,13 @@ class AboutUs extends Component{
 
                 <h2> Tinotenda Matsika </h2>
                 <p> Awesome pawesome! </p>
-                <p><button class = "button"> Linkedin </button></p>
+                <a
+                  aria-label="Linkedin"
+                  href="https://www.linkedin.com/company/mcgill-artificial-intelligence-society/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class='fa fa-linkedin'
+                />
               </div>
             </div>
           </div>
@@ -92,7 +109,13 @@ class AboutUs extends Component{
               <div class = "container">
                 <h2> Rayan Awad Alim </h2>
                 <p> Awesome pawesome! </p>
-                <p><button class = "button"> Linkedin </button></p>
+                <a
+                  aria-label="Linkedin"
+                  href="https://www.linkedin.com/company/mcgill-artificial-intelligence-society/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class='fa fa-linkedin'
+                />
               </div>
             </div>
           </div>
@@ -109,7 +132,13 @@ class AboutUs extends Component{
               <div class = "container">
                 <h2> Michelle Murphy </h2>
                 <p> Awesome pawesome! </p>
-                <p><button class = "button"> Linkedin </button></p>
+                <a
+                  aria-label="Linkedin"
+                  href="https://www.linkedin.com/in/michellemurphy529/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class='fa fa-linkedin'
+                />
               </div>
             </div>
           </div>

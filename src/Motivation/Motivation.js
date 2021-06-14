@@ -8,13 +8,10 @@ class Motivation extends Component{
   render(){
     return(
       <section id = "motivation">
-      <div className = "wave-container">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path fill="#CAE8FF" fill-opacity="01.0" d="M0,64L60,53.3C120,43,240,21,360,37.3C480,53,600,107,720,128C840,149,960,139,1080,133.3C1200,128,1320,128,1380,128L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
 
-      </div>
 
       <Title titleColor = '#0d186e'>Using AI to Address Humanitarian Challenges</Title>
-
+      <h3> Some text here breaking down the impact </h3>
           <div className ="row">
             <div className = "column">
               <div class="img_wrap">
@@ -25,7 +22,7 @@ class Motivation extends Component{
                   to shift the world onto a sustainable and resilient path.
                 </p>
               </div>
-              <h1> Human </h1>
+              <h2 className="bold-color">Human</h2><br/><h2> Issues</h2>
             </div>
 
             <div className = "column">
@@ -33,7 +30,7 @@ class Motivation extends Component{
                 <img src={Data} alt="data"></img>
                 <p class="img_description">Hello data!</p>
               </div>
-              <h1> Data </h1>
+              <h2 className="bold-color">Data</h2><h2> Driven <br/>Solutions</h2>
             </div>
 
             <div className = "column">
@@ -41,7 +38,7 @@ class Motivation extends Component{
                 <img src={Ml} alt="ml"></img>
                 <p class="img_description">Hello ML!</p>
               </div>
-              <h1> AI </h1>
+              <h2 className="bold-color">AI</h2><h2> for <br/> Social Good</h2>
             </div>
 
           </div>

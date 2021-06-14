@@ -86,14 +86,6 @@
     $('.social').hide();
     $('.banner-text').hide();
 
-    $('#R').fadeIn(time);
-    $('#right').delay(time+50).fadeIn(time);
-    $('#Psi').delay((time+50)).fadeIn(time);
-    $('#T').delay(2*(time+50)).fadeIn(time);
-    $('#ne').delay(3*(time+50)).fadeIn(time);
-    $('#Rho').delay(3*(time+50)).fadeIn(time);
-    $('#R-Z').delay(4*(time+50)).fadeIn(time);
-    $('#se').delay(5*(time+50)).fadeIn(time)
     $('#Cong').delay(6*(time+50)).fadeIn(time);
     $('.banner-text').show();
     $('.social').delay(17000).fadeIn(800);

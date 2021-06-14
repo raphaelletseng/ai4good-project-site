@@ -8,7 +8,7 @@ const Title = styled('div')`
   font-weight: bolder;
   color: ${props =>props.titleColor};
   padding-top: 0.33em;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   padding-bottom: 0.33em;
   padding-left: 0.2em;
   padding-right: 0.2em;

@@ -3,7 +3,7 @@ import {motion} from 'framer-motion';
 import Earth from './earth.jpg';
 import Earth2 from './1280px-earth.jpg';
 import Gal from './gal.png';
-import Gal2 from './gal2.png';
+import Gal2 from './colour-gal.png';
 import logo from './logo.png';
 import Button from '../Button.js';
 
@@ -23,20 +23,19 @@ class Landing extends Component {
         </ul>
       </nav>
 
-      <div class="row">
-        <div class="column">
+      <div className="row">
+        <div className="column">
         <br/><br/><br/><br/>
         <div className="text-wrap">
           <motion.h1
             animate={{
-              x:[0, 2, 0]
+              y:[0, 5, 0]
             }}
             transition={{
               duration: 5,
               repeat: Infinity,
             }}>
-            DATALLITE</motion.h1>
-          <h1> Quenching Data Droughts For Sustainable Development </h1>
+            Quenching Data Droughts For Sustainable Development</motion.h1>
           <h3> Here goes some text explaining in brief what we do. <br/> And maybe cat things. </h3>
         </div>
           <Button textcolor="#0d186e" bgcolor="rgba(202,232, 255, 0.5)">I'm an NGO
@@ -50,10 +49,10 @@ class Landing extends Component {
 
         </div>
 
-        <div class="column">
+        <div className="column">
           <br/><br/>
           <motion.img
-            src={Gal}
+            src={Gal2}
             alt = "School person"
             animate={{y:[0,10,0]}}
             transition={{
@@ -65,6 +64,9 @@ class Landing extends Component {
 
         </div>
 
+      </div>
+      <div className = "wave-container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 30 1440 220"><path fill="#fff" fillOpacity="1" d="M0,128L48,112C96,96,192,64,288,64C384,64,480,96,576,138.7C672,181,768,235,864,240C960,245,1056,203,1152,160C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
       </div>
 
       <p className = "scrolldown">

@@ -5,23 +5,34 @@ body { background: #fff;
 
 h1 {
   color: #fff;
-  font: 28px 'Trebuchet MS', sans-serif;
+  font: 30px 'Trebuchet MS', sans-serif;
   font-weight: bolder;
   letter-spacing: 2px;
+}
+
+h2{
+  color: #0d186e;
+  font: 28px 'Trebuchet MS', sans-serif;
+  letter-spacing: 1.2px;
+}
+
+h3 {
+  color: #0d186e;
+  font: 20px 'Trebuchet MS', sans-serif;
+  letter-spacing: 1px;
 }
 
 
 /* Header Styles */
 
 header {
-  background-image: url('./amazon.jpg');
+  background-image:  linear-gradient(rgba(202,232, 255, 0.5), rgba(202,232, 255, 0.5)), url('./nebraska.jpg');
+  background-size: cover;
   position: relative;
-  height: 40px;
   overflow:hidden;
   bottom: -10px;
-  min-height: 400px;
+  min-height: 300px;
   width: 100%;
-  background: #cae8ff;
   text-align: center;
   overflow: hidden;
 
@@ -121,7 +132,7 @@ header .scrolldown a{
   margin-left: auto;
   margin-right: auto;
   display: block;
-  height: 28px;
+  height: 140px;
   width: 42px;
   font-size: 42px;
   color: #fff;
@@ -133,15 +144,14 @@ header .scrolldown a{
 header .scrolldown a:hover { color:#ffff66;}
 
 header .wave-container{
-  box-sizing: border-box;;
-  background: #fff;
+  box-sizing: border-box;
+  margin-bottom: -20px;
 }
 header *,*::before,*::after{
   box-sizing: inherit;
 }
 header .wave-container > svg{
   display: block;
-  float: bottom;
 }
 
 #home .column {
@@ -153,6 +163,7 @@ header .wave-container > svg{
   flex: 50%;
 }
 #home .row {
+  margin-top: -20px;
   display: flex;
   float: right;
   padding-left: 10%;
@@ -183,18 +194,16 @@ header .wave-container > svg{
 }
 
 #home .column img {
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  margin-top: -30px;
   object-fit: contain;
 }
 
 #home {
-
-  background-image:  linear-gradient(rgba(202,232, 255, 0.5), rgba(202,232, 255, 0.5)), url('./nebraska.jpg');
-  background-size:cover;
-  top:0;
-  bottom: 0;
+  top: 0;
+  bottom:0;
 }
+
 
 /**************************************************/
 /* Nav bar stuff */
@@ -216,6 +225,7 @@ header .wave-container > svg{
    z-index: 100;
    position: fixed;
    left: 0;
+   background-color: rgba(255, 255, 255, 0.3);
    outline: none;
    top: 0;
 }
@@ -285,10 +295,23 @@ ul#nav li.current a { color: #0d186e;
   padding-top: 0px;
   padding-bottom: -30em;
 }
+#motivation h2{
+  color: #335899;
+  display: inline;
+
+}
+#motivation .bold-color{
+  color: #0d186e;
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow:0 0 5px #b5b5b5;
+}
 
 #motivation .row{
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 10px;
 }
 
 #motivation h1{
@@ -299,11 +322,16 @@ ul#nav li.current a { color: #0d186e;
   position: relative;
   display: inline-block;
   width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 #motivation .img_description{
   position: absolute;
-  top: -10px;
+  top: -14px;
   bottom: -10px;
+  padding: 10px 10px;
   left: 0;
   right: 0;
   color: #2b2b2b;
@@ -323,6 +351,8 @@ ul#nav li.current a { color: #0d186e;
   cursor: pointer;
   visibility: visible;
   opacity: 1;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+
 }
 
 #motivation .column{
@@ -398,6 +428,9 @@ ul#nav li.current a { color: #0d186e;
   font-size: 2.5em;
 
 }
+#aboutus h2{
+  font-size: 1.4em;
+}
 
 #aboutus .row{
   padding-left: 40px;
@@ -444,6 +477,22 @@ ul#nav li.current a { color: #0d186e;
   padding: 4px 4px;
 }
 
+#aboutus a {
+  border-radius: 10%;
+  background-color: #335899;
+  color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 5px 5px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+
+}
+#aboutus a:hover{
+  color: #ffff66;
+  transform: scale(1.1);
+}
+
 /*#aboutus img {
   width: 70%;
   border-radius: 3%;
@@ -468,6 +517,8 @@ border: 10px solid #fff; */
   filter: grayscale(100%);
   top: 30px;
   left: 35px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+
 }
 
 #aboutus .blob-wrap svg{

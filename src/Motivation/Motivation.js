@@ -11,7 +11,9 @@ class Motivation extends Component{
 
 
       <Title titleColor = '#0d186e'>Using AI to Address Humanitarian Challenges</Title>
-      <h3> Some text here breaking down the impact </h3>
+
+      <h3> Currently, data on key measures of sustainable development are still lacking in much of the
+      developing world. <br/>This gap in data remains a barrier in targeting interventions in regions of greatest need. </h3>
           <div className ="row">
             <div className = "column">
               <div class="img_wrap">
@@ -20,6 +22,8 @@ class Motivation extends Component{
                   In 2015, the United Nations unanimously adopted the
                   Agenda for Sustainable Development outlining a plan of action
                   to shift the world onto a sustainable and resilient path.
+                  Ending poverty is the core UN Sustainable Development Goal (SDG1)
+                  and directly supports other Goals.
                 </p>
               </div>
               <h2 className="bold-color">Human</h2><br/><h2> Issues</h2>
@@ -28,7 +32,10 @@ class Motivation extends Component{
             <div className = "column">
               <div class="img_wrap">
                 <img src={Data} alt="data"></img>
-                <p class="img_description">Hello data!</p>
+                <p class="img_description">
+                  We propose closing the data gap for developing regions by collecting data from satellite images.
+                  Compared to traditional survey collections, our method provides readable data that can be easily updated from publicly available sources.
+                </p>
               </div>
               <h2 className="bold-color">Data</h2><h2> Driven <br/>Solutions</h2>
             </div>
@@ -36,7 +43,10 @@ class Motivation extends Component{
             <div className = "column">
               <div class="img_wrap">
                 <img src={Ml} alt="ml"></img>
-                <p class="img_description">Hello ML!</p>
+                <p class="img_description">Utilizing machine learning, we can extract and measure
+                different socioeconomic and infrastructural indicators to fuel impactful interventions
+                to elevate developing countries out of poverty. We base our work on the research conducted
+                by Stanford's Sustainability and Artificial Intelligence Lab.</p>
               </div>
               <h2 className="bold-color">AI</h2><h2> for <br/> Social Good</h2>
             </div>

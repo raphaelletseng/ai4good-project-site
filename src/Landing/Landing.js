@@ -17,6 +17,7 @@ class Landing extends Component {
         <ul id="nav" className="nav">
           <li className ="current"><a className = "smoothscroll" href="#home">Home</a></li>
           <li><a className = "smoothscroll" href="#motivation">Motivation</a></li>
+          <li><a className = "smoothscroll" href="#target">Target</a></li>
           <li><a className = "smoothscroll" href="#map">Maps</a></li>
           <li><a className = "smoothscroll" href="#aboutus">About Us</a></li>
 
@@ -36,13 +37,14 @@ class Landing extends Component {
               repeat: Infinity,
             }}>
             Quenching Data Droughts For Sustainable Development</motion.h1>
-          <h3> Here goes some text explaining in brief what we do. <br/> And maybe cat things. </h3>
+          <h3> Datallite is an accurate and inexpensive method for estimating
+          socioeconomic indicators from satellite imagery.
+           <br/> We provide scalable data to inform decisions on humanitarian aid and social development.  </h3>
         </div>
-          <Button textcolor="#0d186e" bgcolor="rgba(202,232, 255, 0.5)">I'm an NGO
+          <Button textcolor="#0d186e" bgcolor="rgba(202,232, 255, 0.5)">Request Data
             <i class="fa fa-chevron-right" aria-hidden="true"></i></Button>
 
-          <Button textcolor="#fff" bgcolor="#335899" style={{marginLeft: 20}}>I'm a Gov org
-            <i class="fa fa-chevron-right" aria-hidden="true"></i></Button>
+
           <br/>
           <br/>
 

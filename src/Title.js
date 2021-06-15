@@ -19,6 +19,8 @@ const Title = styled('div')`
   margin-left: auto;
   margin-right: auto;
   margin-top: 0.3em;
+  position: relative;
+  z-index: 1;
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);*/
   @media screen and (max-width: 700px){
     font-size: 1.5em;

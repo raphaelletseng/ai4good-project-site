@@ -77,7 +77,10 @@ export default () => (
 
       <CenterContent>
       <h1>Acknowledgements</h1>
-      <p class ='footer-text'> We would like to thank our TA and our mentors for their support throughout this project. </p>
+      <p class ='footer-text'> We would like to thank our TA, Mohammad Navid Fekri,
+      and our mentors, <br/> Flynn Strathearn, Anand Ankit, and Ella Wilson for their support throughout this project. </p>
+      <p class = 'footer-text'> We would like to acknowledge the research done by the Stanford Sustainability and Artificial Intelligence Lab 
+        and their <br/> work 'Combining Satellite Imagery and Machine Learning to Predict Poverty', as well as the pytorch replication by Jatin Mathur.</p>
       <a href="https://storyset.com/data">Data illustrations by Storyset</a>
         <p class='footer-text'>Get in contact!</p>
 

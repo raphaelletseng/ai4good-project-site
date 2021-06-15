@@ -35,10 +35,10 @@ class AboutUs extends Component{
             </div>
               <div class = "container">
                 <h2> Haoyi Qiu </h2>
-                <p> Awesome pawesome! </p>
+                <p> Evaluates facial expressions on mice  </p>
                 <a
                   aria-label="Linkedin"
-                  href="https://www.linkedin.com/company/mcgill-artificial-intelligence-society/"
+                  href="https://www.linkedin.com/in/haoyi-q-b5a068136/"
                   target="_blank"
                   rel="noopener noreferrer"
                   class='fa fa-linkedin'
@@ -85,7 +85,7 @@ class AboutUs extends Component{
               <div class = "container">
 
                 <h2> Tinotenda Matsika </h2>
-                <p> Awesome pawesome! </p>
+                <p> Compsci ML whiz queen </p>
                 <a
                   aria-label="Linkedin"
                   href="https://www.linkedin.com/company/mcgill-artificial-intelligence-society/"
@@ -108,7 +108,7 @@ class AboutUs extends Component{
               </div>
               <div class = "container">
                 <h2> Rayan Awad Alim </h2>
-                <p> Awesome pawesome! </p>
+                <p> Web Scraper Map Maker extraordinaire </p>
                 <a
                   aria-label="Linkedin"
                   href="https://www.linkedin.com/company/mcgill-artificial-intelligence-society/"
@@ -131,7 +131,7 @@ class AboutUs extends Component{
             </div>
               <div class = "container">
                 <h2> Michelle Murphy </h2>
-                <p> Awesome pawesome! </p>
+                <p> Animal biologist and computer scientist </p>
                 <a
                   aria-label="Linkedin"
                   href="https://www.linkedin.com/in/michellemurphy529/"

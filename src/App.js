@@ -5,6 +5,7 @@ import Motivation from './Motivation/Motivation';
 import Maps from './Maps/Maps.js';
 import Footer from './Footer/Footer.js';
 import AboutUs from './AboutUs/AboutUs.js';
+import Target from './Target/Target.js';
 
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
       <div className="App">
         <Landing/>
         <Motivation/>
+        <Target/>
         <Maps/>
         <AboutUs/>
         <Footer/>

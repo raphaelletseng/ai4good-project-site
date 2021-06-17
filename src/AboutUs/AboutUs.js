@@ -63,7 +63,7 @@ class AboutUs extends Component{
                 <p> Fosters cats and writes code. </p>
                 <a
                   aria-label="Linkedin"
-                  href="https://www.linkedin.com/company/mcgill-artificial-intelligence-society/"
+                  href="https://www.linkedin.com/in/rapha%C3%ABlletseng/"
                   target="_blank"
                   rel="noopener noreferrer"
                   class='fa fa-linkedin'
@@ -88,7 +88,7 @@ class AboutUs extends Component{
                 <p> Compsci ML whiz queen </p>
                 <a
                   aria-label="Linkedin"
-                  href="https://www.linkedin.com/company/mcgill-artificial-intelligence-society/"
+                  href="https://www.linkedin.com/in/tinotendamatsika/"
                   target="_blank"
                   rel="noopener noreferrer"
                   class='fa fa-linkedin'
@@ -108,10 +108,10 @@ class AboutUs extends Component{
               </div>
               <div class = "container">
                 <h2> Rayan Awad Alim </h2>
-                <p> Web Scraper Map Maker extraordinaire </p>
+                <p> Data and Map Maker extraordinaire </p>
                 <a
                   aria-label="Linkedin"
-                  href="https://www.linkedin.com/company/mcgill-artificial-intelligence-society/"
+                  href="https://www.linkedin.com/in/rayanalim/"
                   target="_blank"
                   rel="noopener noreferrer"
                   class='fa fa-linkedin'

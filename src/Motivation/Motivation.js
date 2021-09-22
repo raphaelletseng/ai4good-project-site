@@ -16,18 +16,13 @@ class Motivation extends Component{
 
       <Title titleColor = '#0d186e'>DEVELOPING AI FOR A SUSTAINABLE FUTURE</Title>
 
-      <h3> Currently, data on key measures of sustainable development are still lacking in much of the
-      developing world. <br/>This gap in data remains a barrier in targeting interventions in regions of greatest need. </h3>
+
           <div className ="row">
             <div className = "column">
               <div class="img_wrap">
                 <img src={Human} alt="human"></img>
                 <p class="img_description">
-                  In 2015, the United Nations unanimously adopted the
-                  Agenda for Sustainable Development outlining a plan of action
-                  to shift the world onto a sustainable and resilient path.
-                  Ending poverty is the core UN Sustainable Development Goal (SDG1)
-                  and directly supports other Goals.
+                  The 2020 Sustainable Development goals of the United Nations sparked a global initative of creating effective <h3>SUSTAINABLE POLICIES FOR ALL</h3>
                 </p>
               </div>
               <h2 className="bold-color">Humanitarian</h2><br/><h2> Aid</h2>
@@ -37,8 +32,9 @@ class Motivation extends Component{
               <div class="img_wrap">
                 <img src={Data} alt="data"></img>
                 <p class="img_description">
-                  We propose closing the data gap for developing regions by collecting data from satellite images.
-                  Compared to traditional survey collections, our method provides readable data that can be easily updated from publicly available sources.
+                  Many developing regions need technology-driven
+                  <h3> LONG-TERM INEXPENSIVE SOLUTIONS </h3>
+                  to fill their data gaps
                 </p>
               </div>
               <h2 className="bold-color">Data</h2><h2> <br/>Driven Solutions</h2>
@@ -47,10 +43,9 @@ class Motivation extends Component{
             <div className = "column">
               <div class="img_wrap">
                 <img src={Ml} alt="ml"></img>
-                <p class="img_description">Utilizing machine learning, we can extract and measure
-                different socioeconomic and infrastructural indicators to fuel impactful interventions
-                to elevate developing countries out of poverty. We base our work on the research conducted
-                by Stanford's Sustainability and Artificial Intelligence Lab.</p>
+                <p class="img_description">Accessible and timely aggregated data on social,
+                environmental, and economic indicators is in high demand in developing regions. Such
+                <h3> DATA IS KEY TO POLICY-MAKING</h3></p>
               </div>
               <h2 className="bold-color">Barrier Free</h2><h2><br/> Access </h2>
             </div>

@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
 import {motion} from 'framer-motion';
-import Earth from './earth.jpg';
-import Earth2 from './1280px-earth.jpg';
 import Gal from './gal.png';
 import Gal2 from './colour-gal.png';
 import logo from './logo.png';
@@ -28,20 +26,11 @@ class Landing extends Component {
         <div className="column">
         <br/><br/><br/><br/>
         <div className="text-wrap">
-          <motion.h1
-            animate={{
-              y:[0, 5, 0]
-            }}
-            transition={{
-              duration: 5,
-              repeat: Infinity,
-            }}>
-            Quenching Data Droughts For Sustainable Development</motion.h1>
-          <h3> Datallite is an accurate and inexpensive method for estimating
-          socioeconomic indicators from satellite imagery.
-           <br/> We provide scalable data to inform decisions on humanitarian aid and social development.  </h3>
+
+            <h1>Data where it's needed</h1>
+          <h3> Helping you make sustainable decisions on global development</h3>
         </div>
-          <Button textcolor="#0d186e" bgcolor="rgba(202,232, 255, 0.5)">Request Data
+          <Button textcolor="#0d186e" bgcolor="rgba(202,232, 255, 0.5)">Sign Up Today
             <i class="fa fa-chevron-right" aria-hidden="true"></i></Button>
 
 
@@ -66,10 +55,10 @@ class Landing extends Component {
 
         </div>
 
+
       </div>
-      <div className = "wave-container">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 30 1440 220"><path fill="#fff" fillOpacity="1" d="M0,128L48,112C96,96,192,64,288,64C384,64,480,96,576,138.7C672,181,768,235,864,240C960,245,1056,203,1152,160C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-      </div>
+
+
 
       <p className = "scrolldown">
         <a className = "smoothscroll" href="#motivation"><i className = "fa fa-chevron-down"></i></a>

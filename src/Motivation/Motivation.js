@@ -8,9 +8,13 @@ class Motivation extends Component{
   render(){
     return(
       <section id = "motivation">
+      <div className="wave-container">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+<path fill="#cae8ff" fill-opacity="1" d="M0,224L60,208C120,192,240,160,360,170.7C480,181,600,235,720,229.3C840,224,960,160,1080,133.3C1200,107,1320,117,1380,122.7L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+</svg>
+      </div>
 
-
-      <Title titleColor = '#0d186e'>Using AI to Address Humanitarian Challenges</Title>
+      <Title titleColor = '#0d186e'>DEVELOPING AI FOR A SUSTAINABLE FUTURE</Title>
 
       <h3> Currently, data on key measures of sustainable development are still lacking in much of the
       developing world. <br/>This gap in data remains a barrier in targeting interventions in regions of greatest need. </h3>
@@ -26,7 +30,7 @@ class Motivation extends Component{
                   and directly supports other Goals.
                 </p>
               </div>
-              <h2 className="bold-color">Human</h2><br/><h2> Issues</h2>
+              <h2 className="bold-color">Humanitarian</h2><br/><h2> Aid</h2>
             </div>
 
             <div className = "column">
@@ -37,7 +41,7 @@ class Motivation extends Component{
                   Compared to traditional survey collections, our method provides readable data that can be easily updated from publicly available sources.
                 </p>
               </div>
-              <h2 className="bold-color">Data</h2><h2> Driven <br/>Solutions</h2>
+              <h2 className="bold-color">Data</h2><h2> <br/>Driven Solutions</h2>
             </div>
 
             <div className = "column">
@@ -48,7 +52,7 @@ class Motivation extends Component{
                 to elevate developing countries out of poverty. We base our work on the research conducted
                 by Stanford's Sustainability and Artificial Intelligence Lab.</p>
               </div>
-              <h2 className="bold-color">AI</h2><h2> for <br/> Social Good</h2>
+              <h2 className="bold-color">Barrier Free</h2><h2><br/> Access </h2>
             </div>
 
           </div>

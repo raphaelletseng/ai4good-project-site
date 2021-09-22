@@ -26,12 +26,11 @@ h3 {
 /* Header Styles */
 
 header {
-  background-image:  linear-gradient(rgba(202,232, 255, 0.5), rgba(202,232, 255, 0.5)), url('./nebraska.jpg');
-  background-size: cover;
+  background-color: #cae8ff;
   position: relative;
   overflow:hidden;
-  bottom: -10px;
-  min-height: 300px;
+  bottom: 10px;
+  min-height: 500px;
   width: 100%;
   text-align: center;
   overflow: hidden;
@@ -127,7 +126,7 @@ header .landing-wrapper{
 
 header .scrolldown a{
   position: absolute;
-  bottom: 50px;
+  bottom: -100px;
   left: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -145,7 +144,7 @@ header .scrolldown a:hover { color:#ffff66;}
 
 header .wave-container{
   box-sizing: border-box;
-  margin-bottom: -20px;
+  margin-bottom: 20px;
 }
 header *,*::before,*::after{
   box-sizing: inherit;
@@ -245,6 +244,7 @@ header .wave-container > svg{
 ul#nav {
    min-height: 48px;
    width: auto;
+   background-color: #cae8ff;
 
    /* center align the menu */
    text-align: center;
@@ -263,7 +263,7 @@ ul#nav li a {
   padding: 8px 20px;
   line-height: 32px;
   text-align: left;
-  color: #cae8ff;
+  color: #0d186e;;
   text-decoration: none;
 
 
@@ -275,8 +275,8 @@ ul#nav li a {
 }
 
 ul#nav li a:hover{
-  color: #0d186e;
-  border-bottom: 4px solid #0d186e;
+  color: #ffff66;
+  border-bottom: 4px solid #ffff66;
 }
 
 /* Hide top bar on home page
@@ -285,6 +285,7 @@ li.current a[target=_home] nav {
 } */
 
 ul#nav li.current a { color: #0d186e;
+  border-bottom: 4px solid #0d186e;
 }
 
 /*****************************************/

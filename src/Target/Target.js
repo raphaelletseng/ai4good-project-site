@@ -9,7 +9,7 @@ class Target extends Component{
   render(){
     return(
       <section id = "target">
-      <Title titleColor= "#0d186e">Who benefits?</Title>
+      <Title titleColor= "#0d186e">HOW WE CAN HELP</Title>
       <h3> We aim to fill existing gaps in data to allow for better
       policy making and more effective intervention. </h3>
       <br/>

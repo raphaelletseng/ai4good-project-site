@@ -10,20 +10,32 @@ class Target extends Component{
     return(
       <section id = "target">
       <Title titleColor= "#0d186e">HOW WE CAN HELP</Title>
-      <h3> We aim to fill existing gaps in data to allow for better
-      policy making and more effective intervention. </h3>
+
       <br/>
         <div class = "container">
           <div class ="box">
             <img src={Lagos} alt="Lagos"/>
+            <div class="text">
+              <p> We use publicly available and readily <br/> updated satellite imagery to <br/>
+                  estimate date for important <br/> socioeconomic indicators of a region.</p>
+            </div>
           </div>
-          <div class ="box"><img src={Classroom} alt="Lagos class"/></div>
-            <h3> Non-Governmental Organisations </h3>
-            <h3> Government Policy Makers </h3>
-          <div class ="box"><img src={Un} alt="conf room"/></div>
-          <div class ="box"><img src={Desktop} alt="desktop"/></div>
-            <h3> Global Organisations </h3>
-            <h3> Academic Researchers & Students </h3>
+          <div class ="box"><img src={Classroom} alt="Lagos class"/>
+            <div class="text">
+            <p>We identify areas of greatest need <br/> through our database to inform <br/> resource allocation decisions.</p>
+            </div>
+          </div>
+          <div class ="box"><img src={Un} alt="conf room"/>
+            <div class="text">
+            <p> Our accurate technology ensures the <br/> highest quality understanding of <br/> conditions across developing regions.</p>
+            </div>
+          </div>
+          <div class ="box"><img src={Desktop} alt="desktop"/>
+            <div class="text">
+            <p> We provide increased data coverage <br/> on secluded regions that are hard to <br/> reach by traditional survery collection.</p>
+            </div>
+          </div>
+
         </div>
 
       </section>

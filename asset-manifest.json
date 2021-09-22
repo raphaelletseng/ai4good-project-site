@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/datallite-site/static/css/main.a617e044.chunk.css",
-    "main.js": "/datallite-site/static/js/main.63b5f72f.chunk.js",
-    "main.js.map": "/datallite-site/static/js/main.63b5f72f.chunk.js.map",
+    "main.js": "/datallite-site/static/js/main.01b7292e.chunk.js",
+    "main.js.map": "/datallite-site/static/js/main.01b7292e.chunk.js.map",
     "runtime-main.js": "/datallite-site/static/js/runtime-main.28f1c8c5.js",
     "runtime-main.js.map": "/datallite-site/static/js/runtime-main.28f1c8c5.js.map",
     "static/js/2.182eff92.chunk.js": "/datallite-site/static/js/2.182eff92.chunk.js",
@@ -17,22 +17,21 @@
     "static/media/Typing-bro.96de4816.png": "/datallite-site/static/media/Typing-bro.96de4816.png",
     "static/media/classroom.c9a6f9ca.jpg": "/datallite-site/static/media/classroom.c9a6f9ca.jpg",
     "static/media/colour-gal.d835ce3e.png": "/datallite-site/static/media/colour-gal.d835ce3e.png",
+    "static/media/dashboard.97f97469.png": "/datallite-site/static/media/dashboard.97f97469.png",
     "static/media/desktop.f71676cc.jpg": "/datallite-site/static/media/desktop.f71676cc.jpg",
     "static/media/gal.196887bc.png": "/datallite-site/static/media/gal.196887bc.png",
     "static/media/haoyi.449748b4.jpg": "/datallite-site/static/media/haoyi.449748b4.jpg",
     "static/media/lagos.eba85176.jpg": "/datallite-site/static/media/lagos.eba85176.jpg",
     "static/media/logo.7e7be565.png": "/datallite-site/static/media/logo.7e7be565.png",
     "static/media/michelle.e68e806b.jpg": "/datallite-site/static/media/michelle.e68e806b.jpg",
-    "static/media/nigeria-stan.9556d6ba.png": "/datallite-site/static/media/nigeria-stan.9556d6ba.png",
     "static/media/raph.34843bfd.jpg": "/datallite-site/static/media/raph.34843bfd.jpg",
     "static/media/rayan2.62632a3e.jpg": "/datallite-site/static/media/rayan2.62632a3e.jpg",
-    "static/media/tanzania-stan.e5c35959.png": "/datallite-site/static/media/tanzania-stan.e5c35959.png",
     "static/media/un.b645aa15.jpg": "/datallite-site/static/media/un.b645aa15.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.28f1c8c5.js",
     "static/js/2.182eff92.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.63b5f72f.chunk.js"
+    "static/js/main.01b7292e.chunk.js"
   ]
 }

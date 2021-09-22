@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/datallite-site/static/css/main.a617e044.chunk.css",
-    "main.js": "/datallite-site/static/js/main.af181855.chunk.js",
-    "main.js.map": "/datallite-site/static/js/main.af181855.chunk.js.map",
+    "main.js": "/datallite-site/static/js/main.fe6f04ba.chunk.js",
+    "main.js.map": "/datallite-site/static/js/main.fe6f04ba.chunk.js.map",
     "runtime-main.js": "/datallite-site/static/js/runtime-main.28f1c8c5.js",
     "runtime-main.js.map": "/datallite-site/static/js/runtime-main.28f1c8c5.js.map",
     "static/js/2.182eff92.chunk.js": "/datallite-site/static/js/2.182eff92.chunk.js",
@@ -21,10 +21,10 @@
     "static/media/gal.196887bc.png": "/datallite-site/static/media/gal.196887bc.png",
     "static/media/haoyi.449748b4.jpg": "/datallite-site/static/media/haoyi.449748b4.jpg",
     "static/media/lagos.eba85176.jpg": "/datallite-site/static/media/lagos.eba85176.jpg",
-    "static/media/logo.0f4ecf00.png": "/datallite-site/static/media/logo.0f4ecf00.png",
+    "static/media/logo.7e7be565.png": "/datallite-site/static/media/logo.7e7be565.png",
     "static/media/michelle.e68e806b.jpg": "/datallite-site/static/media/michelle.e68e806b.jpg",
     "static/media/nigeria-stan.9556d6ba.png": "/datallite-site/static/media/nigeria-stan.9556d6ba.png",
-    "static/media/raph.dc016aaf.jpg": "/datallite-site/static/media/raph.dc016aaf.jpg",
+    "static/media/raph.34843bfd.jpg": "/datallite-site/static/media/raph.34843bfd.jpg",
     "static/media/rayan2.62632a3e.jpg": "/datallite-site/static/media/rayan2.62632a3e.jpg",
     "static/media/tanzania-stan.e5c35959.png": "/datallite-site/static/media/tanzania-stan.e5c35959.png",
     "static/media/un.b645aa15.jpg": "/datallite-site/static/media/un.b645aa15.jpg"
@@ -33,6 +33,6 @@
     "static/js/runtime-main.28f1c8c5.js",
     "static/js/2.182eff92.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.af181855.chunk.js"
+    "static/js/main.fe6f04ba.chunk.js"
   ]
 }

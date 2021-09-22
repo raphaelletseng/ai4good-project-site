@@ -30,7 +30,7 @@ header {
   position: relative;
   overflow:hidden;
   bottom: 10px;
-  min-height: 500px;
+  min-height: 400px;
   width: 100%;
   text-align: center;
   overflow: hidden;
@@ -327,11 +327,17 @@ ul#nav li.current a { color: #0d186e;
   color: #2b2b2b;
 }
 
+#motivation h3{
+  color: #ffff66;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
 #motivation .img_wrap{
   position: relative;
   display: inline-block;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 20px;
@@ -341,11 +347,11 @@ ul#nav li.current a { color: #0d186e;
   top: -14px;
   bottom: -10px;
   padding: 10px 10px;
-  left: 0;
+  left: 10;
   right: 0;
-  color: #2b2b2b;
+  color: #fff;
   border-radius: 5%;
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(202,232, 255, 0.5));
+  background-color: #335899 ;
   visibility: hidden;
   opacity:0;
 
@@ -360,8 +366,6 @@ ul#nav li.current a { color: #0d186e;
   cursor: pointer;
   visibility: visible;
   opacity: 1;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
-
 }
 
 #motivation .column{

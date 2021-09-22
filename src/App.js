@@ -15,6 +15,7 @@ class App extends Component {
         <Landing/>
         <Motivation/>
         <Target/>
+        <Maps/>
         <AboutUs/>
         <Footer/>
       </div>

@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/datallite-site/static/css/main.7d180cbf.chunk.css",
-    "main.js": "/datallite-site/static/js/main.9177829b.chunk.js",
-    "main.js.map": "/datallite-site/static/js/main.9177829b.chunk.js.map",
+    "main.css": "/datallite-site/static/css/main.a617e044.chunk.css",
+    "main.js": "/datallite-site/static/js/main.af181855.chunk.js",
+    "main.js.map": "/datallite-site/static/js/main.af181855.chunk.js.map",
     "runtime-main.js": "/datallite-site/static/js/runtime-main.28f1c8c5.js",
     "runtime-main.js.map": "/datallite-site/static/js/runtime-main.28f1c8c5.js.map",
-    "static/js/2.76214f72.chunk.js": "/datallite-site/static/js/2.76214f72.chunk.js",
-    "static/js/2.76214f72.chunk.js.map": "/datallite-site/static/js/2.76214f72.chunk.js.map",
+    "static/js/2.182eff92.chunk.js": "/datallite-site/static/js/2.182eff92.chunk.js",
+    "static/js/2.182eff92.chunk.js.map": "/datallite-site/static/js/2.182eff92.chunk.js.map",
     "static/js/3.0d789bd6.chunk.js": "/datallite-site/static/js/3.0d789bd6.chunk.js",
     "static/js/3.0d789bd6.chunk.js.map": "/datallite-site/static/js/3.0d789bd6.chunk.js.map",
     "index.html": "/datallite-site/index.html",
-    "static/css/main.7d180cbf.chunk.css.map": "/datallite-site/static/css/main.7d180cbf.chunk.css.map",
-    "static/js/2.76214f72.chunk.js.LICENSE.txt": "/datallite-site/static/js/2.76214f72.chunk.js.LICENSE.txt",
-    "static/media/1280px-earth.1ea08b52.jpg": "/datallite-site/static/media/1280px-earth.1ea08b52.jpg",
+    "static/css/main.a617e044.chunk.css.map": "/datallite-site/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.182eff92.chunk.js.LICENSE.txt": "/datallite-site/static/js/2.182eff92.chunk.js.LICENSE.txt",
     "static/media/Data report-amico.8d2f67f6.png": "/datallite-site/static/media/Data report-amico.8d2f67f6.png",
     "static/media/Solidarity-amico.7bb44ce2.png": "/datallite-site/static/media/Solidarity-amico.7bb44ce2.png",
     "static/media/Typing-bro.96de4816.png": "/datallite-site/static/media/Typing-bro.96de4816.png",
     "static/media/classroom.c9a6f9ca.jpg": "/datallite-site/static/media/classroom.c9a6f9ca.jpg",
     "static/media/colour-gal.d835ce3e.png": "/datallite-site/static/media/colour-gal.d835ce3e.png",
     "static/media/desktop.f71676cc.jpg": "/datallite-site/static/media/desktop.f71676cc.jpg",
-    "static/media/earth.f6e91565.jpg": "/datallite-site/static/media/earth.f6e91565.jpg",
     "static/media/gal.196887bc.png": "/datallite-site/static/media/gal.196887bc.png",
     "static/media/haoyi.449748b4.jpg": "/datallite-site/static/media/haoyi.449748b4.jpg",
     "static/media/lagos.eba85176.jpg": "/datallite-site/static/media/lagos.eba85176.jpg",
@@ -33,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.28f1c8c5.js",
-    "static/js/2.76214f72.chunk.js",
-    "static/css/main.7d180cbf.chunk.css",
-    "static/js/main.9177829b.chunk.js"
+    "static/js/2.182eff92.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.af181855.chunk.js"
   ]
 }

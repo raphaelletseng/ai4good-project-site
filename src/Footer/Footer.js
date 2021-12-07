@@ -95,7 +95,7 @@ export default () => (
           />
           <a
             aria-label="Linkedin"
-            href="https://www.linkedin.com/company/datallite/?lipi=urn%3Ali%3Apage%3Acompanies_company_index%3Bccfe3c05-3e69-444b-ba86-0054717e9c6e"
+            href="https://www.linkedin.com/company/datallite/"
             target="_blank"
             rel="noopener noreferrer"
              class='fa fa-linkedin'

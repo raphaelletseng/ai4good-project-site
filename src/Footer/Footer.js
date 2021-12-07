@@ -86,31 +86,16 @@ export default () => (
 
         <SocialLinks>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-
-          <a
-            aria-label="Facebook"
-            href="https://www.facebook.com/McGillAI/"
-            target="_blank"
-            rel="noopener noreferrer"
-             class='fa fa-facebook'
-          />
-          <a
-            aria-label="Twitter"
-            href="https://twitter.com/mcgillaisociety"
-            target="_blank"
-            rel="noopener noreferrer"
-             class='fa fa-twitter'
-          />
           <a
             aria-label="Github"
-            href="https://github.com/McGillAISociety"
+            href="https://github.com/RayanAlim/Datallite"
             target="_blank"
             rel="noopener noreferrer"
              class='fa fa-github'
           />
           <a
             aria-label="Linkedin"
-            href="https://www.linkedin.com/company/mcgill-artificial-intelligence-society/"
+            href="https://www.linkedin.com/company/datallite/?lipi=urn%3Ali%3Apage%3Acompanies_company_index%3Bccfe3c05-3e69-444b-ba86-0054717e9c6e"
             target="_blank"
             rel="noopener noreferrer"
              class='fa fa-linkedin'
